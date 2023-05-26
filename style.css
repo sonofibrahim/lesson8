@@ -80,5 +80,35 @@ gap: 10px;
     text-transform: uppercase;
     font-size: 14px;
 }
+/* hero */
+.hero{
+    background-image: url(images/fura.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 155px 0px 220px ;
+    /* font-family: system-ui; */
+    /* margin: 0px auto; */
+    /* display: flex; */
+}
+
+.hero .block{
+    border: 1px #C8A35F solid;
+    padding: 45px 70px;
+    text-align: center;
+    width: 920px;
+    /* justify-content: center; */
+    margin: 0px auto;
+
+}
+.hero .block h1{
+    font-size: 64px;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
 
 
+.hero .block p{
+    font-size: 18px;
+    
+}
